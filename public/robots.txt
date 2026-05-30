@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Don't crawl the IndexNow key file (it's still accessible directly)
+Disallow: /800b44a80c904adbab5aa0ad0fe823d5.txt
+
+Sitemap: https://abhijays.me/sitemap.xml
+
+# IndexNow key for instant indexing
+# https://www.indexnow.org/
